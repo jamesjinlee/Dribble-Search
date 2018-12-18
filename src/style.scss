@@ -1,0 +1,174 @@
+body, html {
+  margin: 0;
+  // font-family: "Roboto", sans-serif;
+  // background: linear-gradient(to bottom, #fff 0%,#53cbf1 40%,#05abe0 100%);
+  height: 100%;
+}
+.logo {
+  height: 60px;
+  width: auto;
+}
+.uploadLogo {
+  height: 1.65em;
+  width: auto;
+  margin: 10px;
+}
+
+.uploadLogo2 {
+  height: 1.9em;
+  width: auto;
+  margin: 10px;
+}
+.searchIcon {
+  height: 1.5em;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  height: 60px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #989898;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading2{
+  margin-right: 20px;
+}
+
+.heading p{
+  margin: 0.9em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.heading.heading2 * {
+  cursor: pointer;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.heading p:hover{
+  color: #e2e2e2;
+
+}
+// .flexChild {
+//   margin: 10px;
+// }
+
+.search {
+  height: 170px;
+  background-color: #777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share.link.icon {
+  font-size: 2em;
+}
+
+i.icon.angle.down:before {
+    color: #abaaaade;
+}
+
+.ui.input>input{
+  height: 30px;
+  width: 580px;
+  border-width: 0px;
+  font-size: 30px;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #3C3C3C;
+}
+
+.ui.input {
+  color: #3a8bbb;
+}
+.hey:hover {
+  color: red;
+}
+
+.filters {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: red;
+}
+
+.filters * {
+  font-size: 18px;
+  margin-left: 12px;
+  margin-right: 4px;
+}
+
+.display{
+  min-height: 100vh;
+  height: 100%;
+  background-color: #F5F5F5;
+  padding-bottom: 2em;
+}
+
+.itemCards {
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 3em;
+}
+.cardIcons{
+  display: flex;
+  justify-content: flex-end;
+}
+.cardIcons *{
+  margin-right: 10px;
+}
+
+.cardIconsLast {
+  margin-right: 0px;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  padding: 0.65em 1em;
+}
+
+.ui.dropdown:not(.button)>.default.text {
+    color: rgba(41, 41, 41, 0.87);
+}
+
+.ui.four.cards>.card {
+    width: calc(25% - 3em);
+    margin: 2em 1.5em 2em 1.5em;
+}
+
+.ui.dropdown>.dropdown.icon {
+  font-family: eye;
+  margin: 0 0 0 0.5em;
+}
+
+.ui.loader {
+  position: relative;
+  left: 50%;
+}
+
+.ui.card > .content > .header, .ui.cards > .card > .content > .header {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a8bbb;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CACACA;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #CACACA;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #CACACA;
+}
